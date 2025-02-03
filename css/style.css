@@ -8,7 +8,7 @@
 /* header */
 .container{
     margin: 0 auto;
-    width: 1204px;
+    max-width: 70%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,13 +16,16 @@ header{
     padding: 16px 0px;
     background-color: #255ee9;
     }
+
 header nav{
     display: flex;
+    align-items: center;
+    height: 74px;
 }
 
-header nav > div{
+header nav> div{
     padding: 0;
-    background-color: #daa520;
+    /* background-color: #daa520; */
 }
 
 header nav .box-1{
@@ -38,6 +41,7 @@ header #menù-centrale{
     text-align: right;
 }
 
+/* menù centrale */
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -45,6 +49,17 @@ ul{
     list-style-type: none;
     color: #ffffff;
     font-size: 20px;
+}
+
+/* button-accedi */
+
+button{
+    all: unset;
+    font-size: 20px;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px 30px;
 }
 
 
