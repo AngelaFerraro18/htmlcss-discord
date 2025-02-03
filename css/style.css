@@ -13,7 +13,7 @@
 
 header{
     padding: 16px 0px;
-    background-color: #add8e6;
+    background-color: #255ee9;
     }
 header nav{
     display: flex;
@@ -45,12 +45,10 @@ header #menù-centrale{
 /* sezione 1 */
 
 #sec-1{
-    display: flex;
-    justify-content: center;
-    background-image: url('img/jumbo.png');
-    /* background-color: #00008b; */
-    padding: 51px;
-    /* background-image: url('img/jumbo.png'); */
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    padding: 50px;
+
 }
 
 #sec-1>div{
