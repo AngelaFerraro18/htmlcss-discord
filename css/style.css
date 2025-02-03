@@ -50,7 +50,8 @@ header #menù-centrale{
     width: 248px;
 }
 /* menù centrale */
-ul{
+
+.elenco-menù-centrale{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -229,19 +230,67 @@ p{
     border-bottom: 3px solid #ffffff;
 }
 
+.titolo-sez5{
+    color: #7288da;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #ffffff;
+}
+
+.fa-angle-down{
+    color: #ffffff;
+}
+
+.tendina{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.elenco-icone{
+    margin-top: 20px;
+    }
+
+.elenco-icone ul>li{
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    
+}
 .rosa2{
-    background-color: #f08080;
+    background-color: #23272a;
     width: 362px;
 }
 
+.elenco{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
 .azzurro2{
-    background-color: #20b2aa;
+    background-color: #23272a;
     width: 841px;
     display: flex;
+
+}
+
+h4{
+    font-size: 25px;
+    color: #7288da;
+}
+
+ul.elenco>li{
+    padding: 10px 0;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .blocchi{
     width: 210px;
+    padding-bottom: 85px;
 }
 
 /* footer */
