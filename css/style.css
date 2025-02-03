@@ -167,6 +167,7 @@ p{
 /* sezione 3 */
 .contenitore{
     background-color: #d3d3d3;
+    padding: 100px 0;
 }
 
 .blocco3{
@@ -227,7 +228,7 @@ p{
     justify-content: center;
     background-color: #23272a;
     padding: 50px 0;
-    border-bottom: 3px solid #ffffff;
+    /* border-bottom: 3px solid #ffffff; */
 }
 
 .titolo-sez5{
@@ -306,13 +307,24 @@ footer{
     align-items: center;
     width: 1204px;
     height: 81px;
-    background-color: #7fffd4;
+    border-top: 2px solid #7288da;
+    background-color: #23272a;
 }
 
 .piede-pagina>div{
-    background-color: #ffb6c1;
+    /* background-color: #ffb6c1; */
     padding: 10px 12px;
-    margin-top: 10px;
+}
+
+.btn-registrati{
+    all: unset;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #7288da;
+    border-radius: 30px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
 }
 
 
