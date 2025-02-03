@@ -121,6 +121,9 @@ button{
     background-color: #23272a;
 }
 
+i{
+    margin-right: 10px;
+}
 #sec-1>div{ 
     width: 904px;
     /* background-color: #ee82ee;     */
@@ -163,8 +166,6 @@ p{
 /* sezione 3 */
 .contenitore{
     background-color: #d3d3d3;
-    padding-top: 265px;
-    padding-bottom: 210px;
 }
 
 .blocco3{
@@ -203,9 +204,24 @@ p{
     font-size: 30px;
 }
 
+.arrow2{
+    background-color: #7288da;
+    color: #ffffff;
+}
+
+.stelline{
+    display: flex;
+    justify-content: center;
+}
+
+.bottone{
+    display: flex;
+    justify-content: center;
+}
+
 /* sezione 5 */
 
-#blocco5{
+.blocco5{
     display: flex;
     justify-content: center;
     background-color: #23272a;
