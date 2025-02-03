@@ -175,6 +175,11 @@ p{
     padding: 50px 0;
 }
 
+.img-item2{
+    background-image: url('../img/item2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* sezione 4 */
 
