@@ -9,6 +9,7 @@
 .container{
     margin: 0 auto;
     width: 1204px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -20,7 +21,7 @@ header nav{
 }
 
 header nav > div{
-    padding: 15px 12px;
+    padding: 0;
     background-color: #daa520;
 }
 
@@ -33,13 +34,20 @@ header #menù-centrale{
     flex-grow: 1;
     }
 
-#menù-centrale{
-    text-align: center;
-}
-
 .login{
     text-align: right;
 }
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
 /* main */
 
 /* sezione 1 */
