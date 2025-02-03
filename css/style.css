@@ -101,13 +101,27 @@ p{
 }
 /* stile pulsanti */
 button{
+    all: unset;
     margin-top: 70px;
     font-size: 35px;
+    padding: 30px 40px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 .pulsanti{
     display: flex;
     justify-content: center;
+    gap: 25px;
+}
+
+.download{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.open-ds{
+    background-color: #23272a;
 }
 
 #sec-1>div{
