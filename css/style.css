@@ -30,10 +30,7 @@ header nav{
     height: 74px;
 }
 
-header nav> div{
-    padding: 0;
-    /* background-color: #daa520; */
-}
+
 
 header nav .box-1{
     width: 240px;
@@ -55,7 +52,7 @@ header #menù-centrale{
 /* menù centrale */
 ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style-type: none;
     color: #ffffff;
@@ -124,7 +121,7 @@ button{
     background-color: #23272a;
 }
 
-#sec-1>div{
+#sec-1>div{ 
     width: 904px;
     /* background-color: #ee82ee;     */
 }
@@ -135,21 +132,39 @@ button{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    margin-top: 2px;
-    padding: 50px 0;
+    margin-top: 275px;
+    margin-bottom: 210px;
+    /* padding: 50px 0; */
     
 }
 
 .blu{
-    background-color: #1e90ff;
+    background-color: #ffffff;
     width: 725px;
+    flex-shrink: 0;
 }
 
 .rosa{
-    background-color: #ffc0cb;
-    width: 480px;
+    background-color: #ffffff;
+    flex-grow: 1;
 }
 
+h2{
+    font-size: 70px;
+}
+
+p{
+    font-size: 35px;
+    margin-top: 80px;
+    text-align: left;
+
+}
+
+.img-item1{
+    background-image: url('../img/item1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* sezione 3 */
 
 .blocco3{
