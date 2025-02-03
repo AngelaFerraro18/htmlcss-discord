@@ -38,9 +38,13 @@ header #menù-centrale{
     }
 
 .login{
-    text-align: right;
+    text-align: right; 
 }
 
+.logo-img{
+    height: 74px;
+    width: 248px;
+}
 /* menù centrale */
 ul{
     display: flex;
