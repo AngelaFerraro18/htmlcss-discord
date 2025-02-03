@@ -160,11 +160,6 @@ p{
 
 }
 
-.img-item1{
-    background-image: url('../img/item1.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 /* sezione 3 */
 .contenitore{
     background-color: #d3d3d3;
@@ -180,11 +175,6 @@ p{
     gap: 100px;
 }
 
-.img-item2{
-    background-image: url('../img/item2.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .bg-grigio{
     background-color: #d3d3d3;
@@ -196,12 +186,21 @@ p{
     background-color: #d3d3d3;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 .blocco4>div{
-    background-color: #228b22;
+    /* background-color: #228b22; */
     width: 1204px;
+}
+
+.titolo-sez4{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sottotitolo-sez4{
+    text-align: center;
+    font-size: 30px;
 }
 
 /* sezione 5 */
