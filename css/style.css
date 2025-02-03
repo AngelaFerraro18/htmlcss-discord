@@ -86,13 +86,13 @@ ul{
 
 /* titolo paragrafo */
 h1{
-    font-size: 70px;
+    font-size: 42px;
     margin-top: 130px;
     text-align: center;
 }
 
 p{
-    font-size: 35px;
+    font-size: 30px;
     text-align: justify;
     margin-top: 80px;
 }
@@ -100,7 +100,7 @@ p{
 button{
     all: unset;
     margin-top: 70px;
-    font-size: 35px;
+    font-size: 20px;
     padding: 30px 40px;
     border-radius: 50px;
     cursor: pointer;
@@ -132,9 +132,9 @@ button{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    margin-top: 275px;
-    margin-bottom: 210px;
-    /* padding: 50px 0; */
+    padding-top: 275px;
+    padding-bottom: 210px;
+    gap: 100px;
     
 }
 
@@ -150,11 +150,11 @@ button{
 }
 
 h2{
-    font-size: 70px;
+    font-size: 42px;
 }
 
 p{
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 80px;
     text-align: left;
 
@@ -166,19 +166,28 @@ p{
     background-size: contain;
 }
 /* sezione 3 */
+.contenitore{
+    background-color: #d3d3d3;
+    padding-top: 265px;
+    padding-bottom: 210px;
+}
 
 .blocco3{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     background-color: #d3d3d3;
-    padding: 50px 0;
+    gap: 100px;
 }
 
 .img-item2{
     background-image: url('../img/item2.svg');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.bg-grigio{
+    background-color: #d3d3d3;
 }
 
 /* sezione 4 */
